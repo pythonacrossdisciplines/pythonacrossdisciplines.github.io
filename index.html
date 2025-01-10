@@ -4,14 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Across Disciplines</title>
+    
+    <style>
+        /* Style for the div */
+        .container {
+          width: 500px;           /* Set the width of the div */
+          border: 2px solid black; /* Add a border around the div for visualization */
+          padding: 10px;          /* Optional padding */
+          margin: 20px auto;      /* Center the div horizontally */
+        }
+        
+        /* Style for the table */
+        table {
+          width: 100%;            /* Table fills 100% of the div's width */
+          border-collapse: collapse; /* Ensures no double borders */
+        }
+        
+        /* Optional: Styling for table rows and cells */
+        th, td {
+          border: 1px solid black; /* Add borders to the table cells */
+          padding: 8px;            /* Add padding inside cells */
+          text-align: left;        /* Align text to the left */
+        }
+        
+        th {
+          background-color: #f4f4f4; /* Add background color to table header */
+        }
+    </style>
+
 </head>
 <body style="margin-top: 50px;">
     <center>
         <p style="font-family: Courier; font-size: 18px;">Python Across Disciplines</p>
         <p style="font-family: Courier; font-size: 14px;">by John Gordon</p>
         <br>
-        <div style="border: 1px #999999; padding: 20px; width: 500px;">
-            <table style="width: 100%">
+        <div class="container">
+            <table>
                 <tr>
                     <td>1</td>
                     <td>2</td>
